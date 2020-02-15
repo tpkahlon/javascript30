@@ -1,1 +1,15 @@
 # JavaScript30
+
+- Project 1 / JavaScript Drum Kit: [View Demo](https://google.com)
+- Project 2 / CSS + JS Clock: [View Demo](https://google.com)
+- Project 3 / Playing with CSS Variables and JS: [View Demo](https://google.com)
+- Project 4 / Array Cardio: [View Demo](https://google.com)
+- Project 5 / Flex Panels Image Gallery: [View Demo](https://google.com)
+- Project 6 / Ajax Type Ahead: [View Demo](https://google.com)
+- Project 7 / Fun with HTML5 Canvas: [View Demo](https://google.com)
+- Project 8 / 14 Must Know Dev Tools Tricks: [View Demo](https://google.com)
+- Project 9 / Hold Shift to Check Multiple Checkboxes: [View Demo](https://google.com)
+- Project 10 / Custom HTML5 Video Player: [View Demo](https://google.com)
+- Project 11 / Key Sequence Detection (KONAMI CODE): [View Demo](https://google.com)
+- Project 12 / Slide In on Scroll: [View Demo](https://google.com)
+- Project 13 / Object and Arrays - Reference VS Copy: [View Demo](https://google.com)
