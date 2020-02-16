@@ -1,10 +1,10 @@
 # JavaScript30
 
-- Project 1 / JavaScript Drum Kit: [View Demo](https://google.com)
-- Project 2 / CSS + JS Clock: [View Demo](https://google.com)
-- Project 3 / Playing with CSS Variables and JS: [View Demo](https://google.com)
-- Project 4 / Array Cardio: [View Demo](https://google.com)
-- Project 5 / Flex Panels Image Gallery: [View Demo](https://google.com)
+- Project 1 / JavaScript Drum Kit: [View Demo](https://5e4884d046b3923edc4eef96--affectionate-mayer-37aaab.netlify.com/)
+- Project 2 / CSS + JS Clock: [View Demo](https://5e48856fa481848e6989abf9--zealous-nightingale-6b1bb7.netlify.com/)
+- Project 3 / Playing with CSS Variables and JS: [View Demo](https://5e4885e49845078d73a4acef--confident-shirley-b5c4b5.netlify.com/)
+- Project 4 / Array Cardio: [View Demo](https://5e48866408ec7b193c3fc33b--happy-northcutt-100ab0.netlify.com/)
+- Project 5 / Flex Panels Image Gallery: [View Demo](https://5e4886f00d32de9122bc0905--confident-albattani-04c93b.netlify.com/)
 - Project 6 / Ajax Type Ahead: [View Demo](https://google.com)
 - Project 7 / Fun with HTML5 Canvas: [View Demo](https://google.com)
 - Project 8 / 14 Must Know Dev Tools Tricks: [View Demo](https://google.com)
