@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS30 Project 13</title>
+</head>
+<body>
+  <div>
+    <h1>Arrays</h1>
+    <p>To clone an array, use following methods.</p>
+    <pre>
+      let arr = [1,2,3,4,5];
+      let arrClone = arr.slice();
+    </pre>
+    <pre>
+      let arr = [1,2,3,4,5];
+      let arrClone = [].concat(arr);
+    </pre>
+    <pre>
+      let arr = [1,2,3,4,5];
+      let arrClone = [...arr]; // BETTER
+    </pre>
+    <pre>
+      let arr = [1,2,3,4,5];
+      let arrClone = Array.from(arr);
+    </pre>
+    <h1>Objects</h1>
+    <p>To clone an object, use following methods.</p>
+    <pre>
+      let obj = { age: 12 };
+      let objClone = Object.assign({}, obj, { age: 18 });
+    </pre>
+    <pre>For deep level cloning, use related function available in lodash.</pre>
+    <pre>
+      let obj = { age: 12, hobbies: { indoor: ['a', 'b'], outdoor: ['c', 'd'] } };
+      let objClone = JSON.parse(JSON.stringify(obj));
+      objClone.hobbies.indoor[0] = 'e';
+    </pre>
+    <pre>
+      let obj = { age: 12, hobbies: { indoor: ['a', 'b'], outdoor: ['c', 'd'] } };
+      let objClone = { ...obj };
+      objClone.age = 14;
+      objClone.hobbies.indoor[0] = 'e'; // DOES NOT WORK IN DEEP LEVEL
+    </pre>
+  </div>
+</body>
+</html>

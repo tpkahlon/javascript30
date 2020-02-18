@@ -1,0 +1,48 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.intro {
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.app {
+  display: grid;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.img {
+  margin: 1rem;
+  opacity: 0;
+  transition: all 1s ease;
+  &-box {
+    margin: 0 auto;
+  }
+  &.left {
+    transform: translateX(-100%) scale(.25);
+  }
+  &.right {
+    transform: translateX(100%) scale(.25);
+  }
+  &.active {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
