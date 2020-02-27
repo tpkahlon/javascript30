@@ -18,6 +18,7 @@ const app = () => {
     sortedNameList.forEach(i => {
       let firstName = i.split(",")[0].trim();
       let surName = i.includes(",") ? i.split(",")[1].trim() : "";
+      if(!firstName || !surName) return;
       people.innerHTML += `<li class="list-group-item"><span class="first-name">${firstName}</span>${surName &&
         `<span class=\"sur-name\">${surName}</span>`}</li>`;
     });
