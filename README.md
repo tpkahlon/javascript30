@@ -14,3 +14,4 @@
 - Project 12 / Slide In on Scroll: [View Demo](https://zen-wiles-69ef4f.netlify.com/)
 - Project 13 / Object and Arrays - Reference VS Copy: [View Demo](https://youthful-swirles-232802.netlify.com/)
 - Project 14 / LocalStorage and Event Delegation: [View Demo](https://stoic-lovelace-c527a8.netlify.com/)
+- Project 15 / CSS Text Shadow Mouse Move Effect: [View Demo](https://jolly-saha-1a28f1.netlify.com/)
