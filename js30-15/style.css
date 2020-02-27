@@ -1,0 +1,21 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://combinatronics.com/pattle/simpsons-in-css/master/css/mr-burns.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.box__text {
+  font-size: 5rem;
+  color: rgba(39, 67, 140, 1);
+  text-shadow: .5rem .5rem 5px rgba(0, 0, 0, .25);
+}
+
+.logo {
+  height: 2.5rem;
+  width: 2.5rem;
+}
