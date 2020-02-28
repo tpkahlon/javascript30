@@ -19,4 +19,4 @@
 - Project 17 / YouTube Playlist Duration Calculator: [View Demo](https://boring-brattain-eb4a05.netlify.com/)
 - Project 18 / Location Coordinates using Leaflet: [View Demo](https://adoring-jepsen-686de1.netlify.com/)
 - Project 19 / Event Handling: [View Demo](https://suspicious-minsky-39ebea.netlify.com/)
-- Project 19 / Follow my links!: [View Demo](https://friendly-gates-1f5d1d.netlify.com/)
+- Project 20 / Follow my links!: [View Demo](https://friendly-gates-1f5d1d.netlify.com/)
