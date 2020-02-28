@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What the Event!</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      href="https://image.flaticon.com/icons/svg/2219/2219225.svg"
+      type="image/svg"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="text-center my-3">
+            <h1>Event Handling and Recursion</h1>
+            <span>This project demonstrate how event handling works. On the side, you will see those cool boxes built with recursion. This project aligns with Wes's JS30 Project 25. Clicking <strong>BOX 1</strong> will trigger an event handler, starting on from it's chain of outermost parent "BOX 2", then moves inwards. I use <em>{capture: true}</em> setting to achieve this behavior. A click on <strong>BOX 2</strong> will trigger an event that fires only once, bubbling does not take place. Feel free to tweak JS code, try different cases to get better grasp on the concept.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overflow-auto">
+    <div id="app" class="app">
+    </div>
+  </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

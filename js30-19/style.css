@@ -1,0 +1,39 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  transition: all 1s ease;
+}
+
+.app {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  position: relative;
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+p {
+  position: absolute;
+  top: 7.5px;
+  left: 7.5px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+}
