@@ -18,3 +18,4 @@
 - Project 16 / Sort Listing by Surname: [View Demo](https://stoic-spence-1904c4.netlify.com/)
 - Project 17 / YouTube Playlist Duration Calculator: [View Demo](https://boring-brattain-eb4a05.netlify.com/)
 - Project 18 / Geolocation using Leaflet: [View Demo](https://adoring-jepsen-686de1.netlify.com/)
+- Project 19 / Event Handling: [View Demo](https://suspicious-minsky-39ebea.netlify.com/)
