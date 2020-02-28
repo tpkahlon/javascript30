@@ -17,3 +17,4 @@
 - Project 15 / CSS Text Shadow Mouse Move Effect: [View Demo](https://jolly-saha-1a28f1.netlify.com/)
 - Project 16 / Sort Listing by Surname: [View Demo](https://stoic-spence-1904c4.netlify.com/)
 - Project 17 / YouTube Playlist Duration Calculator: [View Demo](https://boring-brattain-eb4a05.netlify.com/)
+- Project 18 / Geolocation using Leaflet: [View Demo](https://adoring-jepsen-686de1.netlify.com/)
