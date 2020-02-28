@@ -43,14 +43,18 @@ function makeDOM(person, index) {
   const fT1 = document.createElement("p");
   const fT2 = document.createElement("p");
   const hT1Text = document.createTextNode(
-    `Rank: ${person.rank || "No rank"}, $${person.worth / 1000 + "B" || "No assets"}`
+    `Rank: ${person.rank || "N/A"}, $${person.estWorthPrev ? Math.floor(person.estWorthPrev / 1000) + "B" : "N/A"}`
   );
   const hT2Text = document.createTextNode(
-    `${person.industry || "No industry"}, ${person.source || "No source"}`
+    `${person.industries[0] || "N/A"}${(person.source &&
+      `, ${person.source}`) ||
+    ""}`
   );
-  const mTText = document.createTextNode(`${person.name || "No name"}`);
-  const fT1Text = document.createTextNode(`${person.country || "No country"}`);
-  const fT2Text = document.createTextNode(`${person.title || "No title"}`);
+  const mTText = document.createTextNode(`${person.person.name || "N/A"}`);
+  const fT1Text = document.createTextNode(
+    `Born: ${person.countryOfCitizenship || "N/A"}`
+  );
+  const fT2Text = document.createTextNode(`Residence: ${person.city || "N/A"}`);
   hT1.appendChild(hT1Text);
   hT2.appendChild(hT2Text);
   mT.appendChild(mTText);
