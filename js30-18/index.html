@@ -10,6 +10,10 @@
       href="https://image.flaticon.com/icons/svg/2219/2219225.svg"
       type="image/svg"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    />
   </head>
 
   <body>
@@ -17,20 +21,23 @@
       <div class="container">
         <div class="row">
           <div class="col col-12 text-center">
-            <div>
-              <h1>Geolocation!</h1>
-              <button id="get-location">
-                Get Location
-              </button>
-              <h1 id="text">
-                Please wait while your location is accessed.
-              </h1>
+            <h1>Geolocation!</h1>
+            <p>Search using your own LAT, LONG values in form or Click on the map to get LAT, LONG values, refresh the page to automatically generate random place.</p>
+            <form id="location">
+              <input type="text" class="form-control mb-3" placeholder="Enter Latitude" name="latitude">
+              <input type="text" class="form-control mb-3" placeholder="Enter Longitude" name="longitude">
+              <button id="button" class="btn btn-primary" type="submit">Get Location</button>
+            </form>
+            <div id="map" class="my-3 border">
+              <div class="d-flex justify-content-center align-content-center align-items-center h-100">
+                <p>Please enter values above to begin!</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
