@@ -20,5 +20,5 @@ if (navigator.userAgent.search("Chrome") !== -1) {
   recognition.addEventListener("end", recognition.start);
   recognition.start();
 } else {
-  p.textContent = `This feature is not supported.`;
+  p.textContent = `This feature is not supported in your browser. Pleas head to Google Chrome.`;
 }
