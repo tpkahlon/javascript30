@@ -16,10 +16,11 @@ if (navigator.userAgent.search("Chrome") !== -1) {
     if (e.results[0].isFinal) {
       p = document.createElement("p");
       words.appendChild(p);
+      // recognition.start();
     }
   });
+  // recognition.addEventListener("end", recognition.start);
   recognition.addEventListener("end", recognition.start);
-  // recognition.addEventListener("end speechend soundend audioend", recognition.start);
   recognition.start();
 } else {
   p.textContent = `This feature is not supported in your browser. Pleas head to Google Chrome.`;
