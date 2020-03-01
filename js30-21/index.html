@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webcam Fun!</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/2219/2219225.svg" type="image/svg" />
+</head>
+
+<body class="bg-secondary">
+  <div class="container position-relative text-white">
+    <div class="row">
+      <div class="col col-12">
+        <div class="my-3">
+          <form>
+            <div>
+              <button id="normalBtn" class="btn btn-secondary" data-key="normal">
+                Normal
+              </button>
+              <button id="redEffectBtn" class="btn btn-secondary" data-key="red">
+                Red
+              </button>
+              <button id="splitBtn" class="btn btn-secondary" data-key="split">
+                Split
+              </button>
+              <button id="greenBtn" class="btn btn-secondary" data-key="green">
+                Green
+              </button>
+              <button id="takePhotoBtn" class="btn btn-secondary">
+                Take Photo
+              </button>
+            </div>
+            <div id="settings" class="d-none">
+              <hr />
+              <div class="d-flex justify-content-between flex-column flex-md-row">
+                <div class="form-group d-flex justify-content-between align-items-center align-content-center mb-0">
+                  <label class="m-0 w-50" for="rmin">Red Min:</label>
+                  <input type="range" class="custom-range" min="0" max="255" name="rmin" />
+                </div>
+                <div class="form-group d-flex justify-content-between align-items-center align-content-center mb-0">
+                  <label class="m-0 w-50" for="rmax">Red Max:</label>
+                  <input type="range" class="custom-range" min="0" max="255" name="rmax" />
+                </div>
+              </div>
+              <div class="d-flex justify-content-between flex-column flex-md-row">
+                <div class="form-group d-flex justify-content-between align-items-center align-content-center mb-0">
+                  <label class="m-0 w-50" for="bmin">Green Min:</label>
+                  <input type="range" class="custom-range" min="0" max="255" name="gmin" />
+                </div>
+                <div class="form-group d-flex justify-content-between align-items-center align-content-center mb-0">
+                  <label class="m-0 w-50" for="bmax">Green Max:</label>
+                  <input type="range" class="custom-range" min="0" max="255" name="gmax" />
+                </div>
+              </div>
+              <div class="d-flex justify-content-between flex-column flex-md-row">
+                <div class="form-group d-flex justify-content-between align-items-center align-content-center mb-0">
+                  <label class="m-0 w-50" for="bmin">Blue Min:</label>
+                  <input type="range" class="custom-range" min="0" max="255" name="bmin" />
+                </div>
+                <div class="form-group d-flex justify-content-between align-items-center align-content-center mb-0">
+                  <label class="m-0 w-50" for="bmax">Blue Max:</label>
+                  <input type="range" class="custom-range" min="0" max="255" name="bmax" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="app">
+    <canvas class="canvas"></canvas>
+    <div class="position-fixed video--parent bg-dark rounded border overflow-hidden">
+      <video class="video"></video>
+    </div>
+    <div
+      class="strip d-flex bg-dark justify-content-center align-content-center align-items-center fixed-bottom shadow-lg">
+    </div>
+    <audio class="snap hidden" src="https://wesbos.com/demos/photobooth/snap.mp3"></audio>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
