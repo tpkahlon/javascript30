@@ -7,6 +7,7 @@ if (navigator.userAgent.search("Chrome") !== -1) {
   const recognition = new window.SpeechRecognition();
   recognition.interimResults = true;
   recognition.addEventListener("result", e => {
+    console.log(`E:`, e, `E:R:`, e.results[0], `E:F:`, e.results[0].isFinal);
     const transcript = Array.from(e.results)
       .map(i => i[0])
       .map(j => j.transcript)
@@ -17,10 +18,8 @@ if (navigator.userAgent.search("Chrome") !== -1) {
       words.appendChild(p);
     }
   });
-  recognition.addEventListener("speechend", recognition.start);
-  recognition.addEventListener("soundend", recognition.start);
-  recognition.addEventListener("audioend", recognition.start);
   recognition.start();
+  recognition.addEventListener("speechend soundend audioend", recognition.start);
 } else {
   p.textContent = `This feature is not supported in your browser. Pleas head to Google Chrome.`;
 }
