@@ -18,8 +18,8 @@ if (navigator.userAgent.search("Chrome") !== -1) {
       words.appendChild(p);
     }
   });
+  recognition.addEventListener("end speechend soundend audioend", recognition.start);
   recognition.start();
-  recognition.addEventListener("speechend soundend audioend", recognition.start);
 } else {
   p.textContent = `This feature is not supported in your browser. Pleas head to Google Chrome.`;
 }
