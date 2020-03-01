@@ -21,3 +21,4 @@
 - Project 19 / Event Handling: [View Demo](https://suspicious-minsky-39ebea.netlify.com/)
 - Project 20 / Follow my links!: [View Demo](https://friendly-gates-1f5d1d.netlify.com/)
 - Project 21 / Cam Fun: [View Demo](https://ecstatic-hodgkin-950cc0.netlify.com/)
+- Project 22 / Speech Recognition: [View Demo](https://hungry-engelbart-baeb2e.netlify.com/)
