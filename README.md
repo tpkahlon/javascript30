@@ -24,3 +24,4 @@
 - Project 22 / Speech Recognition: [View Demo](https://hungry-engelbart-baeb2e.netlify.com/)
 - Project 23 / Speech Synthesis: [View Demo](https://priceless-rosalind-ef97cc.netlify.com/)
 - Project 24 / Sticky Menu: [View Demo](https://zen-morse-a952fe.netlify.com/)
+- Project 25 / Click to Scroll: [View Demo](https://focused-lalande-0d062f.netlify.com/)
