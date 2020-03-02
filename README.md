@@ -23,3 +23,4 @@
 - Project 21 / Cam Fun: [View Demo](https://ecstatic-hodgkin-950cc0.netlify.com/)
 - Project 22 / Speech Recognition: [View Demo](https://hungry-engelbart-baeb2e.netlify.com/)
 - Project 23 / Speech Synthesis: [View Demo](https://priceless-rosalind-ef97cc.netlify.com/)
+- Project 23 / Sticky Menu: [View Demo](https://zen-morse-a952fe.netlify.com/)
