@@ -1,0 +1,81 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* .content {
+  transform: scale(.99);
+  transition: transform 1s;
+}
+
+.fixed-to-top .content {
+  transform: scale(1);
+} */
+
+.fixed-to-top #main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  box-shadow: 0 0 15px 15px rgba(0,0,0,0.25);
+}
+
+.fixed-to-top #main ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.fixed-to-top #main ul .list {
+  display: flex;
+  margin: 0 15px;
+  overflow: auto;
+}
+
+.fixed-to-top #main ul .list li {
+  margin: 10px 15px 10px 0;
+}
+
+@media screen and (min-width: 600px) {
+  .fixed-to-top #main ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fixed-to-top #main ul .list {
+    margin-right: 15px;
+    overflow: hidden;
+  }
+  .fixed-to-top #main ul .list li {
+    margin: 0 0 0 15px;
+  }
+}
+
+
+.logo {
+  max-width: 0;
+  max-height: 0;
+  min-width: 0;
+  min-height: 0;
+  /* transition: all .4s ease; */
+  overflow: hidden;
+}
+
+.fixed-to-top .logo {
+  padding: 15px;
+  min-width: inherit;
+  min-height: inherit;
+  max-width: inherit;
+  max-height: inherit;
+  background: #fff;
+  color: #000;
+}
