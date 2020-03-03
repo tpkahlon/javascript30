@@ -1,29 +1,17 @@
-const slider = document.querySelector(".items");
-let isDown = false;
-let startX;
-let scrollLeft;
+const speed = document.querySelector(".speed");
+const bar = document.querySelector(".speed-bar");
+const video = document.querySelector(".flex");
 
-slider.addEventListener("mouseup", () => {
-  isDown = false;
-  slider.classList.remove("active");
-});
+const handleMove = e => {
+  const y = e.pageY - e.target.offsetTop;
+  const percent = y / e.currentTarget.offsetHeight;
+  const min = 0.4,
+    max = 4;
+  const height = Math.round(percent * 100) + `%`;
+  const rate = percent * (max - min) + min;
+  bar.textContent = rate.toFixed(1) + `x`;
+  bar.style.height = height;
+  video.playbackRate = rate;
+};
 
-slider.addEventListener("mouseleave", () => {
-  isDown = false;
-  slider.classList.remove("active");
-});
-
-slider.addEventListener("mousedown", e => {
-  isDown = true;
-  slider.classList.add("active");
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
-});
-
-slider.addEventListener("mousemove", e => {
-  if (!isDown) return;
-  e.preventDefault();
-  const x = e.pageX - slider.offsetLeft;
-  const walk = (x - startX) * 3;
-  slider.scrollLeft = scrollLeft - walk;
-});
+speed.addEventListener("mousemove", e => handleMove(e));
