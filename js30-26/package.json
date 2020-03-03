@@ -1,0 +1,16 @@
+{
+  "name": "js30-23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "browser-sync start --server --files '*.css, *.html, *.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
