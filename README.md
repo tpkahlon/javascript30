@@ -27,3 +27,4 @@
 - Project 25 / Click to Scroll: [View Demo](https://focused-lalande-0d062f.netlify.com/)
 - Project 26 / Video Speed Controller: [View Demo](https://stupefied-heyrovsky-9c4c0c.netlify.com/)
 - Project 27 / Catch a mole: [View Demo](https://awesome-northcutt-f4bf55.netlify.com/)
+- Project 28 / Menu Follow Along: [View Demo](https://amazing-blackwell-3dbe6d.netlify.com/)
