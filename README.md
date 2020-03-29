@@ -12,7 +12,7 @@
 - Project 10 / Custom HTML5 Video Player: [View Demo](https://tpkahlon.github.io/javascript30/js30-10)
 - Project 11 / Key Sequence Detection (KONAMI CODE): [View Demo](https://tpkahlon.github.io/javascript30/js30-11)
 - Project 12 / Slide In on Scroll: [View Demo](https://tpkahlon.github.io/javascript30/js30-12)
-- Project 13 / Object and Arrays - Reference VS Copy: [View Demo](https://tpkahlon.github.io/javascript30/js30-12)
+- Project 13 / Object and Arrays - Reference VS Copy: [View Demo](https://tpkahlon.github.io/javascript30/js30-13)
 - Project 14 / LocalStorage and Event Delegation: [View Demo](https://tpkahlon.github.io/javascript30/js30-14)
 - Project 15 / CSS Text Shadow Mouse Move Effect: [View Demo](https://tpkahlon.github.io/javascript30/js30-15)
 - Project 16 / Sort Listing by Surname: [View Demo](https://tpkahlon.github.io/javascript30/js30-16)
