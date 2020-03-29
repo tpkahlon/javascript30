@@ -1,0 +1,73 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap");
+
+:root {
+  --black: rgba(0, 0, 0, 0.8);
+  --shadow: rgba(0, 0, 0, 0.5);
+  --white: #fff;
+  --font: "Nunito", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+.row,
+.task--flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.25rem;
+}
+
+.box {
+  flex: 1;
+  color: var(--white);
+  padding: 1rem;
+  text-shadow: 0 0 0.5rem var(--black);
+  border: 0.1rem solid var(--black);
+  border-radius: 0.25rem;
+  margin: 0.25rem;
+  transition: all 0.4s ease;
+}
+
+.box p {
+  margin: 0;
+  padding: 0;
+}
+
+.box .p {
+  margin-top: 0.75rem;
+}
+
+.box:hover,
+.box:active,
+.box:focus {
+  z-index: 2;
+  box-shadow: 0 0 1rem 0.5rem var(--shadow);
+}
+
+h1 {
+  padding: 1rem;
+  align-self: center;
+}
+
+.task-four {
+  padding: 1rem;
+}
+
+.task-four h1 {
+  padding: 0;
+}

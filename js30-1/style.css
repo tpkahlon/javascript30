@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Bad+Script|Bowlby+One+SC&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+:root {
+  --black: black;
+  --white: white;
+  --shadow: rgba(0, 0, 0, 0.25);
+  --primaryFont: "Bad Script", cursive;
+  --secondaryFont: "Bowlby One SC", cursive;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  padding: 1rem;
+  font-family: var(--secondaryFont);
+  display: grid;
+  grid-template: auto 1fr / 1fr;
+  grid-gap: 1rem;
+  min-height: 100vh;
+  height: 100%;
+}
+
+header {
+  display: grid;
+  grid-template: auto auto / 1fr;
+  justify-items: center;
+  align-content: center;
+  min-height: 8rem;
+  height: 100%;
+}
+
+main {
+  display: grid;
+  grid-template: auto / repeat(3, 1fr);
+  grid-gap: 1rem 1rem;
+  grid-auto-flow: dense;
+}
+
+@media screen and (min-width: 720px) {
+  main {
+    grid-template: auto / repeat(4, 1fr);
+  }
+}
+
+.h1,
+a {
+  font-family: var(--primaryFont);
+}
+
+.h1 {
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+a {
+  font-size: 1.25rem;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  font-size: 2rem;
+  border: 0.1rem solid var(--black);
+  border-radius: 0.25rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.playing {
+  color: var(--white);
+  background: var(--black);
+  box-shadow: 0 0 1rem 0.25rem var(--shadow);
+}
+
+.playing:hover {
+  color: var(--white);
+  background: var(--black);
+}
+
+.hidden {
+  display: none;
+}
+
+.input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

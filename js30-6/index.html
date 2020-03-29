@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajax type ahead</title>
+    <link
+    rel="icon"
+    href="https://image.flaticon.com/icons/svg/2219/2219225.svg"
+    type="image/svg"
+    />
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div
+      class="d-flex justify-content-center align-items-center flex-column p-5 app"
+    >
+      <img src="./google.png" alt="Search engine" class="img-fluid logo mb-3" />
+      <form class="position-relative">
+        <input
+          type="text"
+          placeholder="Search City or State..."
+          class="mb-0 form-control shadow mb-2"
+        />
+        <ul class="list-group position-absolute"></ul>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

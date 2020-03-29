@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Variables</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/2219/2219225.svg" type="image/svg" />
+</head>
+
+<body>
+  <div class="container my-3">
+    <div class="row mb-3">
+      <div class="col col-12 col-sm-6">
+        <div class="p-3 rounded shadow mb-3 mb-md-0">
+          <h1 class="h4 m-0 p-0 mb-3">Google Chrome</h1>
+          <hr />
+          <form action="" class="row">
+            <div class="col form-group">
+              <label for="blur">Blur</label>
+              <input type="range" class="custom-range" id="blurFF" data-unit="rem" value="0" min="0" max="1"
+                step="0.1" />
+            </div>
+            <div class="col form-group">
+              <label for="spacing">Spacing</label>
+              <input type="range" class="custom-range" id="spacingFF" data-unit="rem" value="1" min="1" max="20"
+                step=".5" />
+            </div>
+            <div class="w-100"></div>
+            <div class="col form-group mb-0">
+              <label for="color">Color</label>
+              <div class="custom-file">
+                <input type="color" class="custom-file-input" id="baseFF" />
+                <label class="custom-file-label" for="color">Select a color</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col col-12 col-sm-6">
+        <div class="p-3 rounded shadow">
+          <h1 class="h4 m-0 p-0 mb-3">Mozilla Firefox</h1>
+          <hr />
+          <form action="" class="row">
+            <div class="col form-group">
+              <label for="blur">Blur</label>
+              <input type="range" class="custom-range" id="blurGC" data-unit="rem" value="0" min="0" max="1"
+                step="0.1" />
+            </div>
+            <div class="col form-group">
+              <label for="spacing">Spacing</label>
+              <input type="range" class="custom-range" id="spacingGC" data-unit="rem" value="1" min="1" max="20"
+                step=".5" />
+            </div>
+            <div class="w-100"></div>
+            <div class="col form-group mb-0">
+              <label for="color">Color</label>
+              <div class="custom-file">
+                <input type="color" class="custom-file-input" id="baseGC" />
+                <label class="custom-file-label" for="color">Select a color</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-12 col-md-6">
+        <div class="card mb-3 mb-md-0 cardFF">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <img src="./chrome.svg" alt="Chrome" id="baseFF" class="img-fluid chrome" />
+          </div>
+        </div>
+      </div>
+      <div class="col col-12 col-md-6">
+        <div class="card cardGC">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <img src="./firefox.svg" alt="Chrome" id="baseGC" class="img-fluid firefox" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
